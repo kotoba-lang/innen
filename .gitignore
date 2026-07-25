@@ -1,2 +1,4 @@
-target/
 .cpcache/
+.nbb/
+target/
+.DS_Store

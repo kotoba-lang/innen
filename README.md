@@ -14,7 +14,7 @@ not schedule, and does not write ledgers — that is
 same split as `dynamics` ⊣ `loop-system-dynamics`.
 
 Zero third-party deps, portable `.cljc`, no host interop. Implements
-ADR-2607255500 (`com-junkawasaki/root`).
+ADR-2607258500 (`com-junkawasaki/root`).
 
 ## Why this exists
 

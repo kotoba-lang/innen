@@ -18,7 +18,7 @@
    `from` DEPENDS ON `to`. Causation follows the same convention (an event
    `from` depends on its cause `to`), so traversal never has to ask which
    direction a given kind means."
-  (:require [clojure.string :as str]
+  (:require [kotoba.lang.text :as str]
             [innen.time :as t]))
 
 (def node-kinds

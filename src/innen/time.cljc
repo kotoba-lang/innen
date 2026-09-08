@@ -30,7 +30,7 @@
    pre-1582 date is stored exactly as its source states it, and
    `:innen.time/calendar` records which calendar the source used when the
    source says so."
-  (:require [clojure.string :as str]))
+  (:require [kotoba.lang.text :as str]))
 
 (def precisions
   "Precision of a stated date, coarsest first."

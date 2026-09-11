@@ -137,7 +137,7 @@ that way — see `com-junkawasaki/root` `manifest/edn-query.cljs`.)
 ## Test
 
 ```bash
-nbb --classpath "src:test" test/run_tests.cljk   # 35 tests, 136 assertions
+kbb --backend sci --classpath "src:test" test/run_tests.cljk   # 35 tests, 136 assertions
 ```
 
 Fixtures are **synthetic on purpose** (`:node/a`, "Test org A"). Real historical

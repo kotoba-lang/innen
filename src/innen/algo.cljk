@@ -20,7 +20,7 @@
    unimportant but because nothing has been ingested about it yet. Every
    returned score therefore carries `:innen/basis`, naming what it was computed
    from, so a small number is never mistaken for a measured absence of risk."
-  (:require [clojure.set :as set]
+  (:require [kotoba.lang.coll :as set]
             [innen.core :as c]))
 
 (defn transitive-dependencies

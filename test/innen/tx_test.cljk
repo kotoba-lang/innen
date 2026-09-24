@@ -1,7 +1,7 @@
 (ns innen.tx-test
   "Synthetic fixtures -- see innen.schema-test's docstring for why."
   (:require [clojure.edn :as edn]
-            [clojure.test :refer [deftest is testing]]
+            [kotoba.test :refer [deftest is testing]]
             [innen.core :as c]
             [innen.tx :as tx]))
 

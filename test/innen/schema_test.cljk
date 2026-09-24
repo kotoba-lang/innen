@@ -5,7 +5,7 @@
    `kotoba-lang/loop-innen`), not in test fixtures: a fact asserted only inside
    a test looks verified because the test passes, when all the test actually
    proves is that the code accepted a string."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [innen.schema :as s]))
 
 (def ok-node

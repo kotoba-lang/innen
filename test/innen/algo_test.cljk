@@ -1,6 +1,6 @@
 (ns innen.algo-test
   "Synthetic fixtures -- see innen.schema-test's docstring for why."
-  (:require [clojure.test :refer [deftest is testing]]
+  (:require [kotoba.test :refer [deftest is testing]]
             [innen.algo :as a]
             [innen.core :as c]))
 

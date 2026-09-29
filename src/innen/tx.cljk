@@ -74,7 +74,7 @@
    :innen.edge/source        {:type :string :doc "Citation. Fail-closed: innen.schema rejects edges without one."}
    :innen.edge/causal-basis  {:type :string :doc "Required on :causation edges: what in the source asserts the causal link."}
    :innen.edge/note          {:type :string}
-   :innen.edge/valid-edn     {:type :string :doc "pr-str of the original nested :innen.edge/valid map, so the projection is lossless (the workspace's nested-value convention, CLAUDE.md 'docs / ADR は EDN only')."}
+   :innen.edge/valid-edn     {:type :string :doc "pr-str of the original nested :innen.edge/valid map, so the projection is lossless (the workspace's nested-value convention, AGENTS.md 'docs / ADR は EDN only')."}
 
    ;; ---- provenance shared with the unified plane ----
    :source/dataset           {:type :string :doc "Which corpus a datom came from. Same attribute the unified plane already uses."}
